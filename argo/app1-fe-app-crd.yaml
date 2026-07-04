@@ -4,6 +4,7 @@ metadata:
   name: app1-fe-app
   namespace: argocd
 spec:
+  project: default
   source:
     repoURL: https://github.com/TomerKarniol/app1-frontend-config.git
     targetRevision: HEAD
